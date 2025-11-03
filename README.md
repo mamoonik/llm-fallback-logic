@@ -42,7 +42,7 @@ curl -s localhost:3000/health | jq
 curl -s -X POST localhost:3000/interviews/start -H 'Content-Type: application/json' -d '{"simulationId":"medspa-intake"}' | jq
 
 ### Force fallback (mock mode)
-# in python/.env: set MOCK_DOWN_MODELS=gpt-4o-mini then restart python
+in python/.env: set MOCK_DOWN_MODELS=gpt-4o-mini then restart python
 
 
 ### Future imporvments  (if time allows)
